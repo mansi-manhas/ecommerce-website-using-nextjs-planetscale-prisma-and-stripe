@@ -1,0 +1,42 @@
+{
+  "name": "ecommerce-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"commonjs\"} prisma/seed.ts"
+  },
+  "dependencies": {
+    "@ngneat/falso": "^6.4.0",
+    "@prisma/client": "^4.14.1",
+    "@stripe/stripe-js": "^1.53.0",
+    "@tanstack/react-query": "^4.29.11",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "currency.js": "^2.0.4",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "next": "13.4.4",
+    "next-connect": "^1.0.0-next.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-intersection-observer": "^9.4.3",
+    "stripe": "^12.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^4.29.11",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "ts-node": "^10.9.1"
+  }
+}
