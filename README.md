@@ -14,7 +14,19 @@ This is an eCommerce website using ReactJS, TailwindCSS, NextJS, PlanetScale, Pr
 - Stripe: used as a payment gateway 
 - Vercel: for hosting the application
 
-## Screenshots
+## APIs
+
+### GET All Categories
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/523bb975-519b-4269-a8c4-68e25f2a8d54)
+
+### GET Category and its respective products by Category ID
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/d4551371-ab1f-4ca1-bfd2-8087805c907d)
+
+### GET Products by Title
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/6603f834-9e8b-4a84-9ee5-00ff9bf2a874)
+
+
+## Frontend
 
 ### Homepage (list of each category and its respective products) 
 ![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/2205b8ec-1a46-430d-8861-8633ca0e8509)
