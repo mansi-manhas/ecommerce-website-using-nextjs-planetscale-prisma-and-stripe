@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## eCommerce Next.js Application 
 
-## Getting Started
+Demo: https://ecommerce-website-using-nextjs-planetscale-prisma-and-stripe.vercel.app/
 
-First, run the development server:
+### Homepage (list of each category and its respective products) 
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/2205b8ec-1a46-430d-8861-8633ca0e8509)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Clicking on "View More" will show all the products for the selected category 
+When we scroll below, we will get more products for that category
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/b06f1f87-ee8b-40c9-b978-68a35d11e1ac)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Once scrolled through, all the products in that category will see the following message 
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/9bb5011c-f8e6-46f7-b9df-00343809c4a6)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Clicking on "View More Details" will display single product page
+![image](https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/assets/18692751/1a155d8e-f8ee-48a5-a8d9-26ef1f84fdfc)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## About the app
 
-To learn more about Next.js, take a look at the following resources:
+This is an eCommerce website using ReactJS, TailwindCSS, NextJS, PlanetScale, Prisma and Stripe for payments.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- ReactJS: for creating UI components
+- NextJS: for rendering data on the server side
+- PlanetScale: DaaS (Database as a service)
+- TailwindCSS: CSS framework for styling
+- Prisma: ORM nad using prisma client, and GUI for viewing and editing data in DB
+- Stripe: used as a payment gateway 
+- Vercel: for hosting the application
